@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/936b50e383.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+	<title>Jornal ultilizando HTML</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+	<div class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        <div class="logo_header">
+            <img src="/img/news.jpg" alt="Logo GN" class="img_logo_header">
+        </div>
+        <div class="navigation_header" id="navigation_header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <a href="#" class="active">Ùltimas Noticias</a>
+            <a href="#">Polìtica</a>
+            <a href="#">Economia</a>
+            <a href="#">Guerra</a>
+			<a href="#">Meio Ambiente</a>
+
+        </div>
+    </div>
+    <div tabindex="0" class="content" onfocus="closeSidebar()" id="content">
+        <h1>News Zigle</h1>
+       <h2 class="nota">Eua x China</h2>
+       <div>
+        <img alt="tensao" "height="574px"" src="img/eua x china.jpg" width="800" loading="lazy" pinger-seen="true">
+    </div> 
+    <p class="text">O que deveria ser uma guerra comercial histórica e decisiva lançada pelo presidente dos EUA, Donald Trump, contra vários países, agora se concentrou em um único alvo: a China.
+    Ao longo de uma semana, as tarifas de Trump sobre importações chinesas saltaram de 54% para 104% e agora 125% – números que se somam às taxas existentes impostas antes do segundo mandato do presidente.
+    A China retaliou na mesma moeda, <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/china-reage-e-anuncia-novas-tarifas-sobre-produtos-dos-eua-de-125/" target="_blank" class="externo">elevando as tarifas retaliatórias sobre as importações dos EUA de 84% para 125%</a> segundo comunicado nesta sexta-feira (11). </p>  
+
+    </div>
+</div>	
+<div class="container">
+    <h2>Principais Noticias</h2>
+	<section>
+        <div>
+            <h2>Bolsonaro será transferido em UTI aérea para Brasília
+            </h2>
+            <p>O ex-presidente Jair Bolsonaro (PL) será transferido de Natal para Brasília em um avião com UTI aérea, segundo confirmaram os médicos responsáveis pelo atendimento a ele no Hospital Rio Grande, em Natal, onde está internado desde a tarde de sexta-feira (11).
+    
+                Segundo o boletim médico divulgado no início da tarde deste sábado (11), a transferência vai acontecer por decisão de Bolsonaro, em conjunto com a família e do seu médico pessoal, para manter proximidade com familiares. Veja o boletim completo mais abaixo, nesta reportagem.
+                
+                </p>
+        </div>
+    <div>
+        <h2>Ambulante é morto por PM após confusão no Brás (SP)
+        </h2>
+        <p>Um ambulante senegalês, de 34 anos, foi baleado por um policial militar na tarde desta sexta-feira (11) no bairro do Brás, região central da capital paulista. O caso ocorreu na rua Joaquim Nabuco.
+        Segundo a Polícia Militar, agentes tentavam apreender mercadorias irregulares quando Ngange Mbaye se exaltou, pegou uma barra de ferro e agrediu um deles.
+            </p>
+    </div>
+		<div>
+            <h2>China mais aberta, EUA isolados e UE enfraquecida: como a guerra de tarifas deve mudar a geopolítica e criar uma nova ordem global
+            </h2>
+            <p>De um lado, o maior governo comunista do mundo defendendo o multilateralismo e a "globalização econômica" e investindo em parcerias.
+
+                Do outro, o país símbolo do capitalismo apontando para o isolacionismo comercial.
+                
+                Além de provocar uma montanha russa nos mercados mundiais, a guerra tarifária entre Estados Unidos e China também pode estar reconfigurando a atual geopolítica mundial.</p>
+        </div>
+
+        <div>
+            <h2>Adesão de enviado de Trump a demandas russas preocupa republicanos
+            </h2>
+            <p>Menos de 48 horas depois de jantar com um negociador enviado pelo presidente russo, Vladimir Putin, em Washington na semana passada, Steve Witkoff, o enviado especial dos EUA que lidera as negociações com Moscou, sentou-se com o presidente Donald Trump na Casa Branca e transmitiu uma mensagem clara.
+
+            </p>
+        </div>
+        <div>
+            <h2>
+                Caiu o cacau: Alerta climático atinge a Bahia e ameaça o fim de semana com temporais
+            </h2>
+            <p>
+                O Instituto Nacional de Meteorologia (Inmet) emite um alerta para chuvas intensas que afetam toda a Bahia neste fim de semana. A previsão inclui precipitações volumosas, ventos que podem atingir até 60 km/h e risco de transtornos.
+            </p>
+        </div>
+        <div>
+            <h2>Focada na classe média, ampliação do 'Minha Casa, Minha Vida' viabiliza 100 mil novas moradias e prestações menores; entenda
+            </h2>
+            <p>
+                O governo anunciou na semana passada a ampliação, de R$ 8 mil para R$ 12 mil, no teto da renda das famílias que podem financiar um imóvel pelo "Minha Casa, Minha Vida (MCMV)", programa habitacional MCMV.
+                
+                  
+            </p>
+        </div>
+		
+	</section>
+    <article>
+        <h2 class="title">Semana Santa</h2>
+        <div>
+            <img src="/img/semana santa.png" alt="foto">
+        </div>
+        <p>A Igreja abre, no próximo domingo, com a celebração dos Ramos da Paixão do Senhor, a Semana Santa. Nela está o ápice do Ano Litúrgico e momento central da fé católica: o Tríduo Pascal. Nesta semana, a Liturgia do Domingo de Ramos visa recordar a Paixão de Cristo, desde sua entrada messiânica em Jerusalém. Nos primeiros dias da Semana Santa, as leituras consideram o mistério da paixão. Na Missa do Crisma, as leituras sublinham a função messiânica de Cristo e sua continuação na Igreja, por meio dos sacramentos. Já o Tríduo, que tem início na quinta-feira, culmina com a vitória de Cristo sobre a morte.
+        Os subsídios “Igreja em Oração” e “Semana Santa 2025“, oferecidos pela Edições CNBB para conduzir as comunidades no seu caminho rumo à Páscoa, apresentam os pontos centrais da celebração de cada dia. O arcebispo-bispo de Cachoeiro do Itapemirim (ES), dom Luiz Fernando Lisboa, situa a celebração da Semana Santa neste Jubileu 2025:
+        </p>
+        
+        <section class="secao">
+<div>
+    <div class="linha-vertical">
+    “Neste ano jubilar, somos chamados a redescobrir o significado da nossa jornada como Igreja missionária e sinodal. O Jubileu nos convida a renovar a fé, e o Tríduo Pascal nos lembra que nossa esperança está enraizada na Ressurreição de Cristo”. 
+</div>
+</div>
+
+<p class="triduo">Sobre o Tríduo Pascal, ele salienta aquilo que cada celebração realiza nos cristãos:</p>
+
+<div>
+    <div class="linha-vertical">
+    “A Eucaristia, instituída na Quinta-feira Santa, nos fortalece e compromete; a Paixão de Cristo, celebrada na Sexta-feira Santa, nos reconcilia e nos faz mais sensíveis aos sofrimentos dos pobres e da terra; e a Ressurreição, proclamada na Vigília Pascal, nos dá a força necessária para lutar pela vida em abundância”. 
+</div>
+</div>
+
+<div>
+
+</div>
+
+<div>
+    <div class="linha-vertical">
+    “O Tríduo Pascal nos ensina a viver essa esperança de forma concreta, renovando nossa confiança em Deus, que caminha conosco, ao nosso  lado, em busca da plenitude da vida”.
+</div>
+</div>
+        </section>
+        <section class="meteoros">
+            <h2 class="met">As incríveis chuvas de meteoros que poderão ser observadas do Brasil
+            </h2>
+            <h3 class="subtitle">Astrônomos ouvidos pela BBC News Brasil destacam cinco fenômenos popularmente conhecidos como ‘estrelas cadentes’ que poderão ser vistos nos céus de nosso país.
+            </h3>
+            <img src="img/meteoro.jpg" alt="">
+            <p>As populares "estrelas cadentes" rasgam o céu durante a madrugada e garantem um belo espetáculo para quem decidir dormir tarde — ou acordar cedo — para observá-las.
+    
+                Conhecidos oficialmente como chuvas de meteoros, esses fenômenos têm data para acontecer — e alguns deles são mais visíveis em certas partes do globo, a depender da posição das constelações no céu, a ausência de nuvens e a fase da Lua naquela determinada noite.
+                
+                Astrônomos ouvidos pela BBC News Brasil destacam cinco chuvas de meteoros que valem a pena ser observadas a partir do Hemisfério Sul: a Eta-Aquáridas, a Delta-Aquáridas do Sul, a Geminídeas, a Oriônidas e a Leônidas.
+                
+                
+                Mas quando elas vão acontecer? E qual a melhor maneira de vê-las? Confira no guia abaixo as principais informações sobre esses eventos astronômicos.
+                
+                Chuva de meteoros deixa trilhas no céu em SC em três dias seguidos
+                
+                O que são chuvas de meteoros?
+                Os meteoros nada mais são do que o rastro dos cometas — grandes objetos feitos de poeira e gelo que surgiram a partir da formação do Sistema Solar há 4,6 bilhões de anos.
+                
+                "Os cometas têm uma órbita ao redor do Sol que é muito mais demorada e alongada. Essas pedras de gelo ficam muito afastadas, na periferia do Sistema Solar", explica o astrônomo Thiago Signorini Gonçalves, diretor do Observatório do Valongo da Universidade Federal do Rio de Janeiro.
+                
+                
+                "As órbitas deles são alteradas de tal forma que eles são 'jogados' na direção do Sol. Mas daí o Sol funciona quase como um estilingue, que acelera os cometas de volta e os arremessa onde estavam anteriormente", complementa o especialista.
+                
+                A chuva de cometas Eta-Aquáridas sobre a qual falaremos em detalhes adiante, por exemplo, está relacionada ao famoso cometa Halley.
+                
+                Mas o importante aqui é que, nessa longa viagem, os cometas soltam detritos e poeira — os ingredientes básicos da chuva de meteoros.
+                
+                Lembra que a Terra realiza a translação, ou a órbita ao redor do Sol que dura pouco mais de 365 dias?
+                
+                Pois em algum momento dessa trajetória, nosso planeta atravessa um determinado lugar do espaço e entra em contato com os detritos deixados pela passagem do cometa justamente ali.
+                
+                Essa poeira entra na atmosfera — numa faixa de altura que varia entre 80 e 120 km da superfície terrestre — e passa por um processo conhecido como abrasão.
+                
+                "Esses pequenos objetos sofrem um choque com as moléculas da atmosfera e se iluminam por causa de uma reação termodinâmica, em que a energia da velocidade é transformada em calor e luz", detalha o astrônomo Marcelo De Cicco, coordenador do projeto Exoss, que está ligado ao Observatório Nacional e faz o monitoramento de meteoros.
+                
+                E é justamente essa "luz em movimento" que pode ser observada a olho nu — e ganha o nome de "estrela cadente" ou chuva de meteoros.
+                
+                Vale destacar aqui que esses objetos são bem pequenos, então a maioria se desintegra ao entrar em contato com a atmosfera.
+                
+                Algumas dessas pedrinhas até "sobrevivem" a esse processo e caem na superfície da Terra. Nesse caso, elas são chamadas de meteoritos. As melhores chuvas de meteoros para ver a partir do Brasil
+                De Cicco destaca cinco fenômenos do tipo que são interessantes de observar a partir da perspectiva do Hemisfério Sul e do Brasil.
+             </p>
+             <nav>
+                <p> Veja abaixo a lista com as datas em que esses fenômenos vão ocorrer em 2025:</p> 
+                <ul>
+                    <li>Eta-Aquáridas: de 19 de abril a 28 de maio (o pico da chuva será em 5 de maio)</li>
+                    <li> Delta-Aquáridas do Sul: de 12 de julho a 23 de agosto (pico em 30 de julho)</li>
+                    <li> Oriônidas: de 2 de outubro a 7 de novembro (pico em 20 de outubro)</li>
+                    <li> Oriônidas: de 2 de outubro a 7 de novembro (pico em 20 de outubro)</li>
+                    <li>Leônidas: de 6 a 30 de novembro (pico em 17 de novembro)</li>
+                    <li>Geminídeas: de 4 a 17 de dezembro (pico em 13 de dezembro)
+                    </li>
+                </ul>                                  
+             </nav>
+             <p>Os nomes dessas chuvas estão relacionados ao radiante, ou ao lugar onde essas chuvas de meteoros parecem "brotar" no céu.
+             </p>
+        </section>
+        <span>
+        <h2>Politica e Economia</h2>
+       </span>
+        <section class="section-pe">
+            <div>
+                <h2>Casa Branca divulga documento com tarifa de 245% para chineses, causa confusão e atualiza texto</h2>
+                <h3>Primeira versão de documento não explicava como os EUA chegaram ao cálculo, mas foi atualizado para esclarecer que a taxa será aplicada sobre produtos específicos.</h3>
+                <p>Um comunicado no site oficial da Casa Branca, dos Estados Unidos, informava nesta terça-feira (15) que a China encararia tarifas de até 245% como resultado das "ações retaliatórias" do país asiático.
+                O documento não explicava como os EUA chegaram ao cálculo, mas foi atualizado para esclarecer que a taxa será aplicada sobre produtos específicos.           
+            
+                </p>
+            </div>
+            <div>
+               <h2> Congresso e STF analisam alternativa à proposta de anistia que reduz pena de réus de menor importância do 8/1</h2>
+               <h3>Projeto de lei no Senado diminuiria de 1/6 a 1/3 a pena de réus de executores dos atos golpistas. Bolsonaro e outros acusados de liderar a tentativa de golpe não seriam beneficiados.</h3>
+               <p>
+                A cúpula do Congresso e ministros do Supremo Tribunal Federal (STF) estão analisando uma alternativa à proposta de anistia que está na Câmara. A ideia é aprimorar a lei existente, reduzindo a pena de réus de menor importância condenados pelos atos golpistas de 8 de janeiro.
+
+                A atual lei de golpe de Estado não permite diferenciar financiadores, organizadores e líderes dos demais réus de menor importância. Caso, por exemplo, de Débora Rodrigues dos Santos, condenada a 14 anos por participar dos ataques antidemocráticos em Brasília e pichar a estátua da Justiça.
+
+                O blog obteve informações com fontes no STF e do Congresso de que o caminho negociado seria a aprovação de um projeto de lei para diminuir de 1/6 a 1/3 a pena de réus de menor importância. O mesmo projeto criaria uma motivação para aumentar a pena dos líderes da tentativa de golpe.
+ </p>
+  </div>
+            <div>
+                <h2>Justiça do Reino Unido decide que definição legal de mulher se refere ao sexo biológico</h2>
+               <h3> De acordo com o jornal 'New York Times', essa decisão pode ter consequências de longo alcance sobre como a lei é aplicada a espaços de gênero único, reivindicações de igualdade salarial e políticas de maternidade.</h3>
+               <p>
+                A Suprema Corte do Reino Unido decidiu na quarta-feira (16) que mulheres trans não se enquadram na definição legal de mulheres segundo a legislação de igualdade do país.
+
+               O julgamento histórico afirmou que a definição legal de mulher é baseada no sexo biológico. De acordo com o jornal “New York Times”, essa decisão pode ter consequências de longo alcance sobre como a lei é aplicada a espaços de gênero único, reivindicações de igualdade salarial e políticas de maternidade.
+
+               A ação ocorre após anos de batalha jurídica sobre se mulheres transgênero podem ser consideradas mulheres sob a Lei da Igualdade britânica de 2010, que visa prevenir a discriminação.
+               </p>
+                </div>
+            <div>
+                <h2>Dólar despenca mundialmente após Trump anunciar que pensa em demitir diretor do banco central americano
+                </h2>
+                <h3>
+                    Moeda é desvalorizada globalmente como consequência das tentativas de Trump de intervir no Fed. Na última sexta (18), a Casa Branca anunciou que avalia se pode demitir Jerome Powell, alvo de Trump.
+
+                </h3>
+                <p>
+                    O dólar despencou nesta segunda-feira (21), à medida que a confiança dos investidores na economia dos Estados Unidos caiu após o presidente Donald Trump revelar seus planos de intervir no Federal Reserve (o Fed, banco central amerciano), o que impactaria a independência do banco.
+
+                    O dólar caiu para o menor nível em uma década frente ao franco suíço, o euro (EUR=EBS) alcançou US$ 1,15 o nível mais alto desde novembro de 2021. Enquanto o dólar neozelandês voltou ao nível de US$ 0,6000 pela primeira vez em mais de cinco meses.
+
+                    O dólar também atingiu uma mínima de sete meses frente ao iene, a 140,615 ienes (JPY=EBS). Dados da CFTC mostraram que as posições líquidas compradas em iene japonês atingiram um recorde na semana encerrada em 15 de abril.
+                </p>
+            </div>
+            <div>
+                <h2>
+                    Com tarifaço, Brasil pode ser grande destino de produtos chineses, mas precisará de preparo
+                </h2>
+                <h3>Especialistas ouvidos pelo g1 dizem que chineses já queriam novos mercados antes das tarifas de Donald Trump. Indústria nacional precisa de investimentos pois ainda não consegue competir em termos de tecnologia e produtividade.
+                </h3>
+                <p>
+                    A guerra tarifária entre China e Estados Unidos movimentou intensamente os mercados financeiros nas últimas semanas, mas os efeitos não se limitam aos investimentos. O comércio mundial também deve ser afetado.
+
+                    As altas tarifas impostas pelos EUA sobre a China "apenas aceleram um processo que já estava em andamento: a busca por novos mercados", explica Vitor Moura, fundador da Lantau Business Answers, consultoria brasileira especializada em intermediação de negócios entre Brasil e China, e especialista da rede Observa China.
+                </p>
+            </div>
+            <div>
+                <h2>Por que decisão da China de restringir exportação de terras raras é duro golpe para EUA
+                </h2>
+                <h3>A China detém quase o monopólio da produção e refino de terras raras. Mas o que são estes minerais e como a restrição da sua exportação para os Estados Unidos pode prejudicar a indústria e a economia do país?
+                </h3>
+                <p>
+                    À medida que se intensifica a guerra comercial entre a China e os Estados Unidos, vêm chamando a atenção os níveis cada vez mais altos de tarifas impostas pelos dois países às importações mútuas.
+
+                    Mas a criação de tarifas de importação recíprocas sobre os produtos americanos não é a única forma de retaliação disponível para Pequim.
+
+                    A China também criou controles de exportação sobre uma série de minerais críticos, terras raras e ímãs, o que representa um golpe considerável para os Estados Unidos.
+
+                    A decisão expôs como os americanos dependem desses minerais.
+
+                    Nesta semana, o presidente americano Donald Trump ordenou que o Departamento do Comércio dos Estados Unidos identificasse formas de ampliar a produção nacional de minerais críticos e reduzir a dependência das importações. É uma tentativa de Washington de recuperar essa indústria fundamental.
+                </p>
+            </div>
+        </section>
+    </article>
+</div>
+<footer>
+    <h2>Zigle</h2>
+    <p class="news">últimas notícias</p>
+    <p>© Copyright 2018-2025 Zigle Comunicação e Participações S.A.</p>
+   <div>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">fale conosco</a>
+                <a href="#">politíca de privacidade</a>
+                <a href="#">anuncie conosco</a>
+                <a href="#">minha conta</a>
+            </li>
+        </ul>
+    </nav>
+   </div> 
+</footer>
+</body>
+
+<script>
+    var header           = document.getElementById('header');
+    var navigationHeader = document.getElementById('navigation_header');
+    var content          = document.getElementById('content');
+    var showSidebar      = false;
+
+    function toggleSidebar()
+    {
+        showSidebar = !showSidebar;
+        if(showSidebar)
+        {
+            navigationHeader.style.marginLeft = '-10vw';
+            navigationHeader.style.animationName = 'showSidebar';
+            content.style.filter = 'blur(2px)';
+        }
+        else
+        {
+            navigationHeader.style.marginLeft = '-100vw';
+            navigationHeader.style.animationName = '';
+            content.style.filter = '';
+        }
+    }
+
+    function closeSidebar()
+    {
+        if(showSidebar)
+        {
+            showSidebar = true;
+            toggleSidebar();
+        }
+    }
+
+    window.addEventListener('resize', function(event) {
+        if(window.innerWidth > 768 && showSidebar) 
+        {  
+            showSidebar = true;
+            toggleSidebar();
+        }
+    });
+
+</script>
+</html>
+
+</html>
