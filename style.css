@@ -403,16 +403,40 @@ footer nav li a:hover{
 		}
 
 		footer{
-			display: block;
-			height: 8.5em;
+			height: 15rem;
 			font-size: 12px;
 		}
 
-		footer nav{
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
+		footer h2 {
+			padding-bottom: 1.5em;
+			font-size: 30px;
+		}
 
+		footer p{
+			font-size: 16px;
+			text-align: left;	
+			line-height: 1.4rem;
+		
+			
+		}
+
+		footer nav{
+			float: left;
+
+		}
+
+		footer , nav , ul{
+			
+		}
+
+		.nav ul li {
+			display: block; 
+
+		}
+
+		footer .nav , ul li a {
+			display: block;
+			font-size: 12px;
 		}
 
 
