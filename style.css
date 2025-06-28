@@ -101,14 +101,16 @@ img{
 }
 
 .container{
-	padding-top: 30px;
+	/* padding-top: 30px; */
 }
 
 .container > h2{
 	text-align: center;
 	padding-bottom: 20px;
+	padding-top: -10px;
 	font-weight: 600;
 	font-size: 30px;
+	border: none;
 }
 
 .externo{
@@ -202,7 +204,7 @@ article p {
 	display: flex;
 	flex-direction: column;
 	background-color:  #9d7b9b56;
-	width: 80%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -272,6 +274,7 @@ span h2{
 
 .section-pe p{
 	padding: 0px 0px;
+	padding-bottom: 15px;
 }
 
 
